@@ -22,7 +22,10 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.concurrent.CompletableFuture;
 
-public class Application {
+/**
+ * @author WYT
+ */
+public class ConsumerApplication {
 	/**
 	 * In order to make sure multicast registry works, need to specify '-Djava.net.preferIPv4Stack=true' before
 	 * launch the application

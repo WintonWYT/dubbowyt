@@ -18,7 +18,10 @@ package com.wyt.producer;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class Application {
+/**
+ * @author WYT
+ */
+public class ProducerApplication {
     public static void main(String[] args) throws Exception {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("spring/dubbo-provider.xml");
         context.start();
